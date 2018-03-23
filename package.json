@@ -1,0 +1,8 @@
+{
+  "name": "react_portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dkim85/React_Portafolio.git",
+  "author": "Danilo <kimhodori@gmail.com>",
+  "license": "MIT"
+}
