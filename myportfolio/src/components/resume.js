@@ -14,9 +14,22 @@ class Resume extends Component {
                          <h2 style={{paddingTop: '2em'}}>Danilo Kim</h2>
                          <h4 style={{color: 'grey'}}>Full Stack Web Developer</h4>
                          <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                         <p>lorem</p>
+                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                         <h5>Address</h5>
+                         <p>3100 Altura Ct, Corona CA, 92882</p>
+                         <h5>Phone</h5>
+                         <p>(949) 394 3522</p>
+                         <h5>Email</h5>
+                         <p>danilok@uci.edu</p>
+                         <h5>MyWebsite</h5>
+                         <p>www.google.com</p>
+                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
 
                     </Cell>
-                    <Cell className="resume-right-col" col={8}>Right Side</Cell>
+                    <Cell className="resume-right-col" col={8}>
+                    <h2>Education</h2>
+                    </Cell>
                </Grid>
                </div>
           )
