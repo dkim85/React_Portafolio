@@ -64,6 +64,13 @@ margin: auto;
   padding: 8px;
 }
 
+/* Resume Page */
+.resume-right-col {
+  background: lightslategray;
+  color: white;
+}
+
+
 /* contact page css */
 
 .contact-body {
