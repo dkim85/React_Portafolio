@@ -14,4 +14,4 @@ class Experience extends Component {
             </Grid>;
      }
 }
-export default Education;
+export default Experience;
