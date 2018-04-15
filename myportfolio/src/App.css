@@ -9,9 +9,9 @@
  background: -webkit-linear-gradient(to top, #274046, #E6DADA);
  background: url(images/blue.jpg);
  text-align: center;
- position: fixed;
- top: 0;
- left: 0;
+ /* position: fixed; */
+ /* top: 0; */
+ /* left: 0; */
  height: 100%;
  width: 100%;
 }
@@ -22,7 +22,7 @@
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 .banner-text {
@@ -131,7 +131,7 @@ margin: auto;
   background: -webkit-linear-gradient(to top, #274046, #E6DADA);
   background: url(images/blue.jpg);
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   /* top: 0; */
   /* left: 0; */
   height: 100%;
