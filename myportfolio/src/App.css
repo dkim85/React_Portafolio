@@ -5,7 +5,7 @@
 }
 
 .material-icons {
-  color:white;
+  color: #39FF14;
 }
 
 .landing-grid {
@@ -81,7 +81,7 @@ margin: auto;
 
 .contact-body {
   margin:auto;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -115,7 +115,7 @@ margin: auto;
 
 .contact-list i {
   font-size: 66px;
-  padding-right: 5rem;
+  padding-right: 0.5rem;
 }
 
 /* content description about me  */

@@ -9,56 +9,50 @@ class Projects extends Component {
   toggleCategories(){
 
     if(this.state.activeTab === 0){
-      return(
-        <div className="projects-grid">
+      return <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(http://s2.dmcdn.net/mhPQ3.png) center / cover"
+              }}
+            >
+            </CardTitle>
+            <CardText>
+              <p>South Park Clicky Game</p>
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
 
-        <Card shadow={5} style={{minWidth: "450", margin: "auto" }}>
-          <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover" }}>
-            React Project #1
-          </CardTitle>
-          <CardText>
-            Ullamco adipisicing deserunt aute velit qui sint.
-          </CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-         <Card shadow={5} style={{minWidth: "450", margin: "auto" }}>
-          <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover" }}>
-            React Project #2
-          </CardTitle>
-          <CardText>
-            Ullamco adipisicing deserunt aute velit qui sint.
-          </CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-         <Card shadow={5} style={{minWidth: "450", margin: "auto" }}>
-          <CardTitle style={{ color: "#fff", height: "176px", background: "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover" }}>
-            React Project #3
-          </CardTitle>
-          <CardText>
-            Ullamco adipisicing deserunt aute velit qui sint.
-          </CardText>
-          <CardActions border>
-            <Button colored>Github</Button>
-          </CardActions>
-          <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
-          </CardMenu>
-        </Card>
-
-        </div>        
-      )
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover"
+              }}
+            >
+              Under Development
+            </CardTitle>
+            <CardText>
+              Ullamco adipisicing deserunt aute velit qui sint.
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>;
     } else if(this.state.activeTab ===1){
       return(
         <div><h1>This is MongoDB</h1></div>

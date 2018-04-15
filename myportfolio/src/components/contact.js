@@ -39,12 +39,12 @@ class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
 
-              </List>
-            </div>
-          </Cell>
-        </Grid>
-      </div>;
-  }
-}
+                </List>
+              </div>
+            </Cell>
+          </Grid>
+        </div>;
+      }
+    }
 
 export default Contact;
