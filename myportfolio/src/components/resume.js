@@ -30,6 +30,11 @@ class Resume extends Component {
                   <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
                 </Cell>
                 <Cell className="resume-right-col" col={8}>
+                
+                <a style={{ color: "black" }} href="https://drive.google.com/file/d/132QsLJllhbVmLCaGPFZJT3zYkYqKEr36/view?usp=sharing" onclick="console.log('The link was clicked.'); return false">
+                  Download My Resume
+                </a>
+
                   <h2>Education</h2>
 
                   <Education startYear={2008} endYear={2010} schoolName="CSUF" schoolDescription="BA in International Business" />
