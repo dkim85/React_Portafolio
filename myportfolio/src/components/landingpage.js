@@ -5,7 +5,7 @@ class Landing extends Component {
     return <div style={{ width: "100", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="https://avatars1.githubusercontent.com/u/18688674?s=400&u=61e8be77ad6a27be82cb3650beb6b08278a76e2b&v=4" alt="cafetero" className="avatar-img" />
+            <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t31.0-8/18815438_10154617616603568_1608126686078017265_o.jpg?_nc_cat=0&oh=68ada32c522278e75300c256613991dd&oe=5B65DD36" alt="cafetero" className="avatar-img" />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />
@@ -15,17 +15,17 @@ class Landing extends Component {
               </p>
               <div className="social-links">
                 {/* LinkeedIn */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="linkedin.com/in/danilokim85" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
 
                 {/* Github */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/dkim85" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
                 {/* Freecodecamp */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://www.freecodecamp.org/dkim85" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-free-code-camp" aria-hidden="true" />
                 </a>
 
