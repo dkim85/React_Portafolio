@@ -22,9 +22,12 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
               <p>South Park Clicky Game</p>
+              <p>The idea of the game is to click on the cards without clicking on the same one twice until you click all cards once.
+              If you click on the same card you have to start again. Have fun!</p>
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
+              <Button colored>Heroku</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -47,6 +50,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
+              <Button colored>Heroku</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
