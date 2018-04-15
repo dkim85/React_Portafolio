@@ -19,7 +19,7 @@ class Aboutme extends Component {
                 Javascript | HTML/CSS | MongoDB | NodeJs | Music | Business
                 | Politics
               </p>
-              <div className="social-links">
+              <div className="about-links">
                 {/* LinkeedIn */}
                 <a href="linkedin.com/in/danilokim85" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-linkedin-square" aria-hidden="true" />

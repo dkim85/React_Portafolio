@@ -104,7 +104,7 @@ margin: auto;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted navy;
+  border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
@@ -117,7 +117,7 @@ margin: auto;
 /* content description about me  */
 
 .description-text {
-  background-color: white;
+  background: url('http://wallpaper-gallery.net/images/solid-color-wallpapers/solid-color-wallpapers-6.jpg');
   width: 75%;
   margin: auto;
   /* border-radius: 10px; */
@@ -140,7 +140,7 @@ margin: auto;
  }
 
  .description-text p {
-  color: navy;
+  color: white;
   font-size: 20px;
   padding: 1em;
 }
@@ -148,11 +148,11 @@ margin: auto;
 .description-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: navy;
+  color: white;
 }
 
 .description-text hr {
-  border-top: 10px dotted navy;
+  border-top: 10px dotted white;
   width: 50%;
   margin: auto;
   padding: 1em;
@@ -161,4 +161,17 @@ margin: auto;
 .about-img {
   height: 250px;
   padding-top: 0.1em;
+}
+
+.about-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.about-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
