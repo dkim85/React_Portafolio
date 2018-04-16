@@ -26,8 +26,17 @@ class Projects extends Component {
               If you click on the same card you have to start again. Have fun!</p>
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Heroku</Button>
+              <Button colored>
+              <a style={{ color: "navy" }} href="https://github.com/dkim85/Southpark_ReactJS" onclick="console.log('The link was clicked.'); return false">
+              Github
+              </a>
+              </Button>
+              <Button colored>
+              <a style={{ color: "navy" }} href="https://daniloreactapp1.herokuapp.com/" onclick="console.log('The link was clicked.'); return false">
+              Heroku
+              </a>
+              </Button>
+              
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -75,7 +84,11 @@ class Projects extends Component {
               <p>A hangman command-line game using javascript constructor functions.</p>
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
+                <Button colored>
+                <a style={{ color: "navy" }} href="https://github.com/dkim85/AdvancedHangman" onclick="console.log('The link was clicked.'); return false">
+                Github
+                </a>
+                </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -123,7 +136,11 @@ class Projects extends Component {
           <p>In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
         </CardText>
         <CardActions border>
-          <Button colored>Github</Button>
+            <Button colored>
+            <a style={{ color: "navy" }} href="https://github.com/dkim85/LiriBot" onclick="console.log('The link was clicked.'); return false">
+            Github
+            </a>
+            </Button>
         </CardActions>
         <CardMenu style={{ color: "#fff" }}>
           <IconButton name="share" />
@@ -171,8 +188,11 @@ class Projects extends Component {
               <p>In this app users view the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.</p>
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Heroku</Button>
+              <Button colored>
+              <a style={{ color: "navy" }} href="https://github.com/dkim85/NewsScrape" onclick="console.log('The link was clicked.'); return false">
+              Github
+              </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
