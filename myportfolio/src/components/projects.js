@@ -76,7 +76,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
-              <Button colored>Heroku</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
